@@ -1,0 +1,30 @@
+.recipe{
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #eeeeee;
+    align-items: center;
+    min-width: 40%;
+    transition: all 0.3s linear;  
+}
+
+/*.recipe {
+    box-shadow: var(--elevation-3);
+    position: relative;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+}*/
+
+.recipe:hover{
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.image{
+    border-radius: 25%;
+    width: 200px;
+    height: 200px;
+}
